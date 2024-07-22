@@ -26,11 +26,10 @@ Then copy the url to your favorite browser. It's the best to practice to connect
 # Connecting to Jupyter Lab/Notebook through jupyterhub
 As soon as you have your scholar access, you should be able to connect purdue jupyterhub; 
 Copy and paste this URL to your browser and enter boilerkey username and password. In the password section, you have to enter your boilerkey password followed with ',push' and confirm with Duo mobile to log in: 
+
 Here is the link: 
-```
 https://notebook.scholar.rcac.purdue.edu
 
-```
 
 
 # Set up Conda Environment 
