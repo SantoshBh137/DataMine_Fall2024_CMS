@@ -1,57 +1,64 @@
+# PHYS_323 Fall Semester Course
 
-This github is designed for students of PHYS_323 for fall semester. The notebooks that will be presented here are created by PHD students Andrew Wildridge and Lingqiang He. Please follow the instruction below to connect to Jupyterlab/notebook. 
+Welcome to the PHYS_323 course for the fall semester. This repository contains notebooks created by Ph.D. students Andrew Wildridge and Lingqiang He. These notebooks will help you understand and explore the course material effectively.
 
 # Connecting to Jupyter Lab/Notebook 
-For this course, we will be using jupyter notebook which is found to be very useful for creating and sharing documents containing code, assignments with narrative text. And there are mainly two ways we can access the jupyter notebook: through terminal(long but very useful process) and through purdue jupyterhub. To access to notebook with any two method, we first need to have scholar access . Please contact the TA in the course for this access. 
+For this course, we will be using Jupyter Notebook, which is useful for creating and sharing documents containing code and narrative text. There are two primary ways to access Jupyter Notebook: through the terminal and through Purdue JupyterHub. Before using either method, you need to have scholar access. Please contact the TA for this access.
 
 # Connecting through Jupyterhub
-As soon as you have your scholar access, you should be able to connect purdue jupyterhub; 
-Copy and paste this URL to your browser and enter boilerkey username and password. In the password section, you have to enter your boilerkey password followed with ```,push ``` and confirm with Duo mobile to log in: 
-
-Here is the link: 
-https://notebook.scholar.rcac.purdue.edu
+1. Obtain Scholar Access: Ensure you have scholar access by contacting the course TA.
+2. Access JupyterHub:
+    Open your web browser and go to: https://notebook.scholar.rcac.purdue.edu
+    Log in using your BoilerKey username and password. In the password field, enter your BoilerKey password followed by ```,push``` and confirm the login with Duo Mobile.
+   
+F.Y.I. You can also access terminal from here which will be seperate from the terminal in your local machine.
 
 # Connecting through terminal
-
-Open the terminal in your local machine then, 
+1. On your local machine, open the terminal.
+2. Use the following command to connect to the Scholar server:
 ```
 ssh <user_name>@scholar.rcac.purdue.edu -L <port_number>:localhost:<port_number>
 ```
-The default port is 8888, however, sometimes it will fail if it is occupied locally. Try any other number above 8000. <br>
-For example (my username is bhanda25):
+ - Replace <username> with your Purdue username.
+ - Replace <port_number> with your chosen port number (default is 8888, but you can use any number above 8000 if 8888 is occupied).
+Example (assuming the username is bhanda25):
 ```
 ssh bhanda25@scholar.rcac.purdue.edu -L 8868:localhost:8868
 ```
-It will ask for the password, you have to enter your boilerkey password followed with ',push' and confirm with Duo mobile to log in. 
-For example: ********,push
+Enter your BoilerKey password followed by ```,push``` and confirm with Duo Mobile.
 
-After logging in, do <br>
+After logging in
+
 ```
 module load anaconda
 ```
 ```
 jupyter lab --port 8868
 ```
-Then copy the url to your favorite browser. It's the best to practice to connect to a remote server via ssh-keys: https://www.rcac.purdue.edu/knowledge/scholar/accounts/login/sshkeys. <br>
+Copy the provided URL into your web browser to access Jupyter Lab. It's the best to practice to connect to a remote server via ssh-keys: https://www.rcac.purdue.edu/knowledge/scholar/accounts/login/sshkeys.
 
 
 # Set up Conda Environment 
 For the purpose of this course, we need to be able to access root files. Therefore, installing ROOT is important. However, it is very difficult to install ROOT locally. Instead, we
 create Conda Environment and install ROOT within it along with all the packages that are needed for this course.
 
-Go to your scholar notebook terminal, do: <br>
+I have already created Conda Environment for your use, all it remains is to link this environment with your notebook: 
+
+You can access to your scholar terminal either from your local machine or through jupyterlab, Once you are logged in: 
+
+Load anaconda module,
+
 ```
 module load anaconda
 
 ``` 
-Load a common kernel from the common area, for example, my kernel: <br>
+Load a common kernel from the common area, for example, my kernel: 
 ```
 source activate /depot/cms/conda_envs/bhanda25/Coffea-Santosh
-
 ``` 
-then register this kernel to jupyter: <br>
+then register this kernel to jupyter: 
 ```
 python -m ipykernel install --user --name=Coffea-Santosh
 
 ``` 
-Refresh your notebook then you will see this new kernel with customized conda packages <br>
+Refresh your notebook then you will see this new kernel with customized conda packages 
