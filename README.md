@@ -40,13 +40,16 @@ create Conda Environment and install ROOT within it along with all the packages 
 Go to your scholar notebook terminal, do: <br>
 ```
 module load anaconda
-``` <br>
+
+``` 
 Load a common kernel from the common area, for example, my kernel: <br>
 ```
 source activate /depot/cms/conda_envs/bhanda25/Coffea-Santosh
-``` <br>
+
+``` 
 then register this kernel to jupyter: <br>
 ```
 python -m ipykernel install --user --name=Coffea-Santosh
-``` <br>
+
+``` 
 Refresh your notebook then you will see this new kernel with customized conda packages <br>
