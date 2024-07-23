@@ -19,7 +19,7 @@ F.Y.I. You can also access terminal from here which will be seperate from the te
 ```
 ssh <user_name>@scholar.rcac.purdue.edu -L <port_number>:localhost:<port_number>
 ```
- - Replace '<username>' with your Purdue username.
+ - Replace <user_name> with your Purdue username.
  - Replace <port_number> with your chosen port number (default is 8888, but you can use any number above 8000 if 8888 is occupied).
 Example (assuming the username is bhanda25):
 ```
