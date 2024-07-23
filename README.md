@@ -8,8 +8,8 @@ For this course, we will be using Jupyter Notebook, which is useful for creating
 # Connecting through Jupyterhub
 1. Obtain Scholar Access: Ensure you have scholar access by contacting the course TA.
 2. Access JupyterHub:
-    Open your web browser and go to: https://notebook.scholar.rcac.purdue.edu
-    Log in using your BoilerKey username and password. In the password field, enter your BoilerKey password followed by ```,push``` and confirm the login with Duo Mobile.
+    - Open your web browser and go to: https://notebook.scholar.rcac.purdue.edu
+    - Log in using your BoilerKey username and password. In the password field, enter your BoilerKey password followed by ```,push``` and confirm the login with Duo Mobile.
    
 F.Y.I. You can also access terminal from here which will be seperate from the terminal in your local machine.
 
