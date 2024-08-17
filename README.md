@@ -1,6 +1,6 @@
 # PHYS_323 Fall Semester Course
 
-Welcome to the PHYS_323 course for the fall semester. This repository contains notebooks created by Ph.D. students Andrew Wildridge and Lingqiang He. These notebooks will help you understand and explore the course material effectively.
+Welcome to the PHYS_323 course for the fall semester. This repository contains notebooks that helps undergraduate students of PHYS_323 to learn about data from CMS open source and use different techniques to analyse them. These notebooks will help you understand and explore the course material effectively.
 
 # Connecting to Jupyter Lab/Notebook 
 For this course, we will be using Jupyter Notebook, which is useful for creating and sharing documents containing code and narrative text. There are two primary ways to access Jupyter Notebook: through the terminal and through Purdue JupyterHub. Before using either method, you need to have scholar access. Please contact the TA for this access.
