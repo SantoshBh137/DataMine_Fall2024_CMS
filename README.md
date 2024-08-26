@@ -63,4 +63,10 @@ python -m ipykernel install --user --name=Coffea-Santosh
 ``` 
 Refresh your notebook then you will see this new kernel with customized conda packages 
 
+#Clone this repository to have access
+```
+git clone https://github.com/SantoshBh137/DataMine_Fall2024_CMS.git
+
+```
+
 Now you are all set for your journey of data analysis !! Good Luck
