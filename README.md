@@ -68,5 +68,14 @@ Refresh your notebook then you will see this new kernel with customized conda pa
 git clone https://github.com/SantoshBh137/DataMine_Fall2024_CMS.git
 
 ```
+Each week, a new folder will be added to this GitHub repository. To get the latest changes from GitHub, follow these steps:
+
+1. **Navigate to your local repository**: Open your terminal and change to the directory where your repository is cloned:
+   ```bash
+   cd /path/to/your/repository
+   
+Pull the latest changes: Run the following command to fetch the latest updates from GitHub:
+```bash
+   git pull
 
 Now you are all set for your journey of data analysis !! Good Luck
