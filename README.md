@@ -75,7 +75,8 @@ Each week, a new folder will be added to this GitHub repository. To get the late
    cd /path/to/your/repository
    
 Pull the latest changes: Run the following command to fetch the latest updates from GitHub:
-```bash
+```
    git pull
+```
 
 Now you are all set for your journey of data analysis !! Good Luck
