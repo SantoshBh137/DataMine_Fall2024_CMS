@@ -1,1 +1,2 @@
-This week we will look at the simple model (linear regression) to see how actually the machine learns and uses the model to make prediction. We will start with analytical implementation of model and then move to pytorch framework.
+This week we will look at the simple model (linear regression) to see how actually the machine learns and uses the model to make prediction. 
+We will start with analytical implementation of model and then move to pytorch framework.
